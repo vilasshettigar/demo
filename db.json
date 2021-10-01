@@ -1,42 +1,41 @@
 {
- "STATUS" : {
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : ""
- },
- "QUOTES" : {
- ".SPX" : { 
- "SYMBOL" : ".SPX",
- "LAST_PRICE" : "4,307.54",
- "NAME" : "S&P 500 INDEX",
- "NETCHG_TODAY" : "-51.92",
-},
- ".IXIC" : { 
- "SYMBOL" : ".IXIC",
- "LAST_PRICE" : "14,448.581",
- "NAME" : "NASDAQ COMPOSITE INDEX COMP",
- "NETCHG_TODAY" : "-63.86",
- },
- ".DJI" : { 
- "SYMBOL" : ".DJI",
- "LAST_PRICE" : "33,843.92",
- "NAME" : "DOW JONES INDUSTRIAL AVERAGE",
- "NETCHG_TODAY" : "-546.80",
- },
- ".SGDOW" : { 
- "SYMBOL" : ".SGDOW",
- "LAST_PRICE" : "356.14",
- "NAME" : "DJ SINGAPORE",
- "NETCHG_TODAY" : "-2.26",
-}
-},
- 
- "MARKET_CLOSE" : {
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "OK",
- "IS_OPEN" : "N",
- "CLOSE_TIME_EST" : "16:00:00",
- },
- "DURATION" : "6.089 ms",
- "RH" : "ccd6e087a499-us-east-2b",
- "FSREQID" : "REQ61568801943bbab587c439d470a0aa33"
+   "STATUS":{
+      "ERROR_CODE":"0",
+      "ERROR_TEXT":""
+   },
+   "QUOTES":{
+      ".SPX":{
+         "SYMBOL":".SPX",
+         "LAST_PRICE":"4,307.54",
+         "NAME":"S&P 500 INDEX",
+         "NETCHG_TODAY":"-51.92"
+      },
+      ".IXIC":{
+         "SYMBOL":".IXIC",
+         "LAST_PRICE":"14,448.581",
+         "NAME":"NASDAQ COMPOSITE INDEX COMP",
+         "NETCHG_TODAY":"-63.86"
+      },
+      ".DJI":{
+         "SYMBOL":".DJI",
+         "LAST_PRICE":"33,843.92",
+         "NAME":"DOW JONES INDUSTRIAL AVERAGE",
+         "NETCHG_TODAY":"-546.80"
+      },
+      ".SGDOW":{
+         "SYMBOL":".SGDOW",
+         "LAST_PRICE":"356.14",
+         "NAME":"DJ SINGAPORE",
+         "NETCHG_TODAY":"-2.26"
+      }
+   },
+   "MARKET_CLOSE":{
+      "ERROR_CODE":"0",
+      "ERROR_TEXT":"OK",
+      "IS_OPEN":"N",
+      "CLOSE_TIME_EST":"16:00:00"
+   },
+   "DURATION":"6.089 ms",
+   "RH":"ccd6e087a499-us-east-2b",
+   "FSREQID":"REQ61568801943bbab587c439d470a0aa33"
 }
