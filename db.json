@@ -1,321 +1,42 @@
 {
-
  "STATUS" : {
  "ERROR_CODE" : "0",
  "ERROR_TEXT" : ""
  },
- "POLLING_CONTROL" : {
- "INTERVAL" : "60000",
- "LIMIT" : "300000"
- },
  "QUOTES" : {
  ".SPX" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".SPX",
  "SYMBOL" : ".SPX",
- "DAY_HIGH" : "4,382.55",
- "DAY_LOW" : "4,306.24",
- "LAST_DATE" : "09/30/2021",
- "LAST_TIME" : "5:09:44pm",
  "LAST_PRICE" : "4,307.54",
  "NAME" : "S&P 500 INDEX",
  "NETCHG_TODAY" : "-51.92",
- "CUSIP" : "648815108",
- "OPEN_PRICE" : "4370.67",
- "PCT_CHG_TODAY" : "-1.19",
- "PCT_CHG_TODAY1" : "-1.19",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "4,359.46",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "U",
- "VOLUME" : "2,283,948,567",
- "YEAR_HIGH_PRICE" : "4,545.85",
- "YEAR_LOW_PRICE" : "3,233.94",
- "YEAR_HIGH_DATE" : "09/02/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : "Std"
- 
-} ,
+},
  ".IXIC" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".IXIC",
  "SYMBOL" : ".IXIC",
- "DAY_HIGH" : "14,632.357",
- "DAY_LOW" : "14,444.299",
- "LAST_DATE" : "09/30/2021",
- "LAST_TIME" : "5:15:59pm",
  "LAST_PRICE" : "14,448.581",
  "NAME" : "NASDAQ COMPOSITE INDEX COMP",
  "NETCHG_TODAY" : "-63.86",
- "CUSIP" : "12499D906",
- "OPEN_PRICE" : "14582.60",
- "PCT_CHG_TODAY" : "-0.44",
- "PCT_CHG_TODAY1" : "-0.44",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "14,512.441",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "D",
- "VOLUME" : "1,139,035,531",
- "YEAR_HIGH_PRICE" : "15,403.437",
- "YEAR_LOW_PRICE" : "10,822.57",
- "YEAR_HIGH_DATE" : "09/07/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : ""
- 
- }
- 
- ,
+ },
  ".DJI" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".DJI",
  "SYMBOL" : ".DJI",
- "DAY_HIGH" : "34,557.37",
- "DAY_LOW" : "33,833.32",
- "LAST_DATE" : "09/30/2021",
- "LAST_TIME" : "5:09:44pm",
  "LAST_PRICE" : "33,843.92",
  "NAME" : "DOW JONES INDUSTRIAL AVERAGE",
  "NETCHG_TODAY" : "-546.80",
- "CUSIP" : "124990177",
- "OPEN_PRICE" : "34467.98",
- "PCT_CHG_TODAY" : "-1.59",
- "PCT_CHG_TODAY1" : "-1.59",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "34,390.72",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "U",
- "VOLUME" : "356,201,957",
- "YEAR_HIGH_PRICE" : "35,631.19",
- "YEAR_LOW_PRICE" : "26,143.77",
- "YEAR_HIGH_DATE" : "08/16/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : ""
- 
- }
- 
- ,
- ".CADOW" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".CADOW",
- "SYMBOL" : ".CADOW",
- "DAY_HIGH" : "668.96",
- "DAY_LOW" : "668.09",
- "LAST_DATE" : "10/01/2021",
- "LAST_TIME" : "12:01:00am",
- "LAST_PRICE" : "668.36",
- "NAME" : "DJ CANADA",
- "NETCHG_TODAY" : "0.00",
- "CUSIP" : "",
- "OPEN_PRICE" : "668.96",
- "PCT_CHG_TODAY" : "0.00",
- "PCT_CHG_TODAY1" : "0.00",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "668.36",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "D",
- "VOLUME" : "0",
- "YEAR_HIGH_PRICE" : "696.11",
- "YEAR_LOW_PRICE" : "511.79",
- "YEAR_HIGH_DATE" : "09/07/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : ""
- }
- ,
- ".HKDOW" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".HKDOW",
- "SYMBOL" : ".HKDOW",
- "DAY_HIGH" : "551.55",
- "DAY_LOW" : "550.82",
- "LAST_DATE" : "10/01/2021",
- "LAST_TIME" : "12:01:00am",
- "LAST_PRICE" : "550.97",
- "NAME" : "DJ HONG KONG",
- "NETCHG_TODAY" : "-0.44",
- "CUSIP" : "",
- "OPEN_PRICE" : "551.49",
- "PCT_CHG_TODAY" : "-0.08",
- "PCT_CHG_TODAY1" : "-0.08",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "551.41",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "D",
- "VOLUME" : "0",
- "YEAR_HIGH_PRICE" : "670.64",
- "YEAR_LOW_PRICE" : "534.36",
- "YEAR_HIGH_DATE" : "02/24/2021",
- "YEAR_LOW_DATE" : "09/29/2021",
- "OPTION_TYPES" : ""
- 
- }
- 
- ,
- ".N225" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".N225",
- "SYMBOL" : ".N225",
- "DAY_HIGH" : "29,393.67",
- "DAY_LOW" : "28,689.48",
- "LAST_DATE" : "10/01/2021",
- "LAST_TIME" : "12:01:05am",
- "LAST_PRICE" : "28,719.98",
- "NAME" : "NIKKEI 225 INDEX",
- "NETCHG_TODAY" : "-732.68",
- "CUSIP" : "653990200",
- "OPEN_PRICE" : "29235.11",
- "PCT_CHG_TODAY" : "-2.49",
- "PCT_CHG_TODAY1" : "-2.49",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "29,452.66",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "U",
- "VOLUME" : "475,001,200",
- "YEAR_HIGH_PRICE" : "30,795.78",
- "YEAR_LOW_PRICE" : "22,948.47",
- "YEAR_HIGH_DATE" : "09/14/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : ""
- 
- }
- 
- ,
- ".NZDOW" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".NZDOW",
- "SYMBOL" : ".NZDOW",
- "DAY_HIGH" : "376.38",
- "DAY_LOW" : "373.20",
- "LAST_DATE" : "10/01/2021",
- "LAST_TIME" : "12:01:01am",
- "LAST_PRICE" : "375.92",
- "NAME" : "DJ NEW ZEALAND",
- "NETCHG_TODAY" : "0.87",
- "CUSIP" : "",
- "OPEN_PRICE" : "373.34",
- "PCT_CHG_TODAY" : "0.23",
- "PCT_CHG_TODAY1" : "0.23",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "375.05",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "D",
- "VOLUME" : "0",
- "YEAR_HIGH_PRICE" : "417.27",
- "YEAR_LOW_PRICE" : "349.89",
- "YEAR_HIGH_DATE" : "01/11/2021",
- "YEAR_LOW_DATE" : "03/09/2021",
- "OPTION_TYPES" : ""
- 
- }
- 
- ,
+ },
  ".SGDOW" : { 
- "ERROR_CODE" : "0",
- "ERROR_TEXT" : "",
- 
- 
- "SECURITY_TYPE" : "Index",
- "QUOTE_TYPE" : "R",
- "REQUEST_SYMBOL" : ".SGDOW",
  "SYMBOL" : ".SGDOW",
- "DAY_HIGH" : "358.61",
- "DAY_LOW" : "355.69",
- "LAST_DATE" : "10/01/2021",
- "LAST_TIME" : "12:01:02am",
  "LAST_PRICE" : "356.14",
  "NAME" : "DJ SINGAPORE",
  "NETCHG_TODAY" : "-2.26",
- "CUSIP" : "",
- "OPEN_PRICE" : "358.37",
- "PCT_CHG_TODAY" : "-0.63",
- "PCT_CHG_TODAY1" : "-0.63",
- "PREV_CLOSE_DATE" : "09/30/2021",
- "PREV_CLOSE_PRICE" : "358.40",
- "SC_CODE3" : "I..",
- "SC_CODE" : "I",
- "INSTRUMENT_TYPE" : "IX",
- "INSTRUMENT_SUBTYPE" : "", 
- "TICK" : "D",
- "VOLUME" : "0",
- "YEAR_HIGH_PRICE" : "373.17",
- "YEAR_LOW_PRICE" : "249.65",
- "YEAR_HIGH_DATE" : "09/07/2021",
- "YEAR_LOW_DATE" : "10/30/2020",
- "OPTION_TYPES" : ""
- 
- }
- 
- },
+}
+},
  
  "MARKET_CLOSE" : {
  "ERROR_CODE" : "0",
  "ERROR_TEXT" : "OK",
  "IS_OPEN" : "N",
  "CLOSE_TIME_EST" : "16:00:00",
- "HOUR" : "0",
- "MINUTE" : "0",
- "SECOND" : "0",
- "FROM_CACHE" : "1"
  },
- 
  "DURATION" : "6.089 ms",
  "RH" : "ccd6e087a499-us-east-2b",
  "FSREQID" : "REQ61568801943bbab587c439d470a0aa33"
- 
 }
-
