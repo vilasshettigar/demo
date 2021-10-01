@@ -34,8 +34,5 @@
       "ERROR_TEXT":"OK",
       "IS_OPEN":"N",
       "CLOSE_TIME_EST":"16:00:00"
-   },
-   "DURATION":"6.089 ms",
-   "RH":"ccd6e087a499-us-east-2b",
-   "FSREQID":"REQ61568801943bbab587c439d470a0aa33"
+   }
 }
